@@ -16,6 +16,7 @@ input.onGesture(Gesture.Shake, function () {
     EventBusValue.MICROBIT_BUTTON_EVT_DOWN
     )
 })
+led.setBrightness(32)
 basic.showIcon(IconNames.Giraffe)
 basic.pause(1000)
 basic.clearScreen()
